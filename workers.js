@@ -1,33 +1,33 @@
 // add multiple serviceaccounts as {}, {}, {}, random account will be selected by each time app is opened.
 const serviceaccounts = [{}];
 var config = {
-    client_id: '',
-    client_secret: '',
-    refresh_token: '', // your refresh_token
-    service_account: true, // true if you're using Service Account instead of user account
+    client_id: 'y746239575955-c4d2o1ahg4ts6ahm3a5lh5lp9g8m15h4.apps.googleusercontent.com',
+    client_secret: 'yGOCSPX-VCp3vSPzMj6negiBplgRDaALisTn',
+    refresh_token: 'y1//0gdoelnIyASi0CgYIARAAGBASNwF-L9IrPCnw0jV79xcXqT6xm4FXaPb5ENdaT6PaDrjeElrgUcSpLHXJMcNknzjwymcTJZrFHFY', // your refresh_token
+    service_account: false, // true if you're using Service Account instead of user account
     service_account_json: serviceaccounts[Math.floor(Math.random() * serviceaccounts.length)], // don't touch this one
     link: 'https://github.com/PBhadoo/google-drive-webdav-workers',
     name: 'GitHub',
     owner_email: 'admin@example.com',
     dav_auth: true,
     dav_users: {
-        'b': 'b' // dav user
+        'yunus': '2004' // dav user
     },
     web_auth: true,
     web_users: {
-        'a': 'a' // web user
+        'yunus': '2004' // web user
     },
     working_dir: '/',
     cache: {
         meta: {
             '/': {
-                id: '', // public directory id
+                id: '1CfzVC1v_0UqPj6IMChoXY27EvYSvyU_w', // public directory id
                 mimeType: 'application/vnd.google-apps.folder',
                 size: 0,
                 modifiedTime: null
             },
             '/dav/': {
-                id: '', // DAV directory id
+                id: '1CfzVC1v_0UqPj6IMChoXY27EvYSvyU_w', // DAV directory id
                 mimeType: 'application/vnd.google-apps.folder',
                 size: 0,
                 modifiedTime: null
